@@ -1,0 +1,14 @@
+# This is also used to name your machines in Openstack
+cluster-name="k8s-cluster"
+
+# Number of worker nodes
+node-count="1"
+
+# Openstack variables
+floating-ip-pool="ext-net-36"
+image-name="CentOS7 - stock"
+image-flavor="s1.small"
+key-pair="keypair"
+
+# This is only necessary if you already have a router. If you want to create one, see instructions in the networking.tf file.
+ext-router-id="62ddc1bb-fa54-4930-bac3-2707b92e2dba"
