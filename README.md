@@ -1,4 +1,4 @@
-# TSI Kubernetes
+# TSI Kubernetes on Openstack
 
 A Terraform + Ansible combo to install a basic kubernetes setup on the EMBASSY openstack cloud.
 
